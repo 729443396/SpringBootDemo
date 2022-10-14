@@ -8,6 +8,9 @@ spring:
     password: 123456
     username: root
 
+logging:
+  config: classpath:log4j2.yml
+
 mybatis:
   #自定义拦截器sql显示属性
   showSql: true
@@ -47,5 +50,4 @@ mybatis:
 
 
 
-logging:
-  config: classpath:log4j2_SpringDemo.xml
+

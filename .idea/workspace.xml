@@ -4,57 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce9dce7b-6825-46a7-aaa2-9d5b2f03e02f" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/Interceptor/ControllerInterceptor/EasyLogControllerInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/Interceptor/DBAutoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/Interceptor/IntercepterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/Interceptor/mybatisPlugins/PagePlugins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/Interceptor/mybatisPlugins/ShowSqlLogInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/SpringBootMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/conf/applicationCon/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/conf/swaggerConf/Swagger2Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/entity/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/entity/ActorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/entity/common/BasePageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/entity/common/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/entity/common/ResultView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/filter/StringCheckFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/interfacedec/ComPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/interfacedec/aop/PageAOP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/interfacedec/aop/WebPageAOP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/mapperInterface/ActorMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/model/CronTimingModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/model/IntervalTimingMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/model/TimingModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/quartzEnum/TriggerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/task/QuartzTaskManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/task/factory/CronTrigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/task/factory/IntervalTrigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/task/factory/TaskJobFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/task/factory/TestQuartz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/task/factory/TriggerManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/task/quartzInterface/ITriggerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/task/quartzInterface/QuartzTaskJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/service/ActorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/test/JndiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/utils/HOPoifHeadUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/utils/MybatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/utils/PageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/utils/RSA2Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/generator/generator-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2_SpringDemo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ActorMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jwt_test/JwtTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jwt_test/RASTest.java" afterDir="false" />
+    <list default="true" id="0861919f-8c0e-4ccb-a4bc-ee2baa50556b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MyBatis_Test_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bootTest/configTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/SpringBootMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/SpringBootMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/model/IntervalTimingMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/model/IntervalTimingMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/task/QuartzTaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/task/QuartzTaskManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2_SpringDemo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2_SpringDemo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jwt_test/JwtTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jwt_test/JwtTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +30,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
-        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -85,66 +49,37 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenRunner">
-    <option name="jreName" value="11" />
-  </component>
-  <component name="ProjectId" id="2Dt2XnXAXp9H3enFeCrKBebZ16v" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="false" id="Update" />
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2Fw5OP436VncblYQo6ANKTm8LmP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/WorkSpace/javaCode/jeecg/MyBatis_Test/src/main/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/WorkSpace/javaCode/jeecg/MyBatis_Test",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "b43659c882efd73bb5a99a3e51d2b036"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WorkSpace\javaCode\jeecg\MyBatis_Test\src\main\resources" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WorkSpace\javaCode\jeecg\MyBatis_Test\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lq.springdemo.service" />
-    </key>
   </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn import with -U" />
-      <command value="mvn --also-make-dependents" />
-      <command value="mvn clean:clean package" />
-      <command value="mvn clean" />
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.SpringBootMain">
-    <configuration name="HOPoifHeadUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lq.springdemo.utils.HOPoifHeadUtil" />
-      <module name="MyBatis_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lq.springdemo.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.SpringBootMain">
     <configuration name="SpringBootMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="MAIN_CLASS_NAME" value="com.lq.springdemo.SpringBootMain" />
       <module name="MyBatis_Test" />
       <extension name="coverage">
@@ -157,110 +92,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JwtTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="configTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatis_Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jwt_test.*" />
+          <option name="PATTERN" value="bootTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jwt_test" />
-      <option name="MAIN_CLASS_NAME" value="jwt_test.JwtTest" />
+      <option name="PACKAGE_NAME" value="bootTest" />
+      <option name="MAIN_CLASS_NAME" value="bootTest.configTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RASTest.JM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringBootMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="MyBatis_Test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lq.springdemo.SpringBootMain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jwt_test.*" />
+          <option name="PATTERN" value="com.lq.springdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jwt_test" />
-      <option name="MAIN_CLASS_NAME" value="jwt_test.RASTest" />
-      <option name="METHOD_NAME" value="JM" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RASTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyBatis_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jwt_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jwt_test" />
-      <option name="MAIN_CLASS_NAME" value="jwt_test.RASTest" />
-      <option name="METHOD_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="mybatis-generator:generate" />
-                <option value="-e" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map>
-                <entry key="jdk-1.8" value="true" />
-              </map>
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Application.HOPoifHeadUtil" />
-      <item itemvalue="Application.SpringBootMain" />
-      <item itemvalue="JUnit.RASTest.JM" />
-      <item itemvalue="JUnit.JwtTest.test" />
-      <item itemvalue="JUnit.RASTest.Test" />
-      <item itemvalue="Maven.mybatis-generator" />
-    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpringBootMain" />
+        <item itemvalue="JUnit.configTest.test" />
         <item itemvalue="Application.SpringBootMain" />
-        <item itemvalue="JUnit.RASTest.JM" />
-        <item itemvalue="JUnit.RASTest.Test" />
-        <item itemvalue="Application.HOPoifHeadUtil" />
-        <item itemvalue="JUnit.JwtTest.test" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="默认任务">
-      <changelist id="ce9dce7b-6825-46a7-aaa2-9d5b2f03e02f" name="变更" comment="" />
-      <created>1661504105184</created>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0861919f-8c0e-4ccb-a4bc-ee2baa50556b" name="Changes" comment="" />
+      <created>1665390273417</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1661504105184</updated>
+      <updated>1665390273417</updated>
+      <workItem from="1665564845420" duration="1239000" />
+      <workItem from="1665624031327" duration="12009000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -273,155 +156,16 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lq/springdemo/Interceptor/mybatisPlugins/PagePlugins.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lq/springdemo/Interceptor/mybatisPlugins/PagePlugins.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lq/springdemo/interfacedec/aop/PageAOP.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lq/springdemo/Interceptor/mybatisPlugins/ShowSqlLogInterceptor.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lq/springdemo/interfacedec/aop/PageAOP.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../apache-maven-3.8.5/repo/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6-sources.jar!/org/aspectj/runtime/reflect/JoinPointImpl.java</url>
-          <line>145</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../apache-maven-3.8.5/repo/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6-sources.jar!/org/aspectj/runtime/reflect/JoinPointImpl.java</url>
-          <line>151</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../apache-maven-3.8.5/repo/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6-sources.jar!/org/aspectj/runtime/reflect/JoinPointImpl.java</url>
-          <line>154</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../apache-maven-3.8.5/repo/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6-sources.jar!/org/aspectj/runtime/reflect/JoinPointImpl.java</url>
-          <line>156</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lq/springdemo/interfacedec/aop/PageAOP.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lq/springdemo/service/ActorService.java</url>
-          <line>141</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lq/springdemo/Interceptor/mybatisPlugins/PagePlugins.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/lq/springdemo/SpringBootMain.java</url>
           <line>40</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lq/springdemo/interfacedec/aop/WebPageAOP.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lq/springdemo/interfacedec/aop/WebPageAOP.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lq/springdemo/interfacedec/aop/PageAOP.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/jwt_test/JwtTest.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lq/springdemo/utils/HOPoifHeadUtil.java</url>
-          <line>293</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lq/springdemo/utils/HOPoifHeadUtil.java</url>
-          <line>263</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lq/springdemo/utils/HOPoifHeadUtil.java</url>
-          <line>206</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lq/springdemo/utils/HOPoifHeadUtil.java</url>
-          <line>187</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/jwt_test/RASTest.java</url>
-          <line>109</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/jwt_test/RASTest.java</url>
-          <line>146</line>
-          <option name="timeStamp" value="56" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <pin-to-top-manager>
-      <pinned-members>
-        <PinnedItemInfo parentTag="org.springframework.web.method.HandlerMethod" memberName="bean" />
-        <PinnedItemInfo parentTag="org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint" memberName="args" />
-      </pinned-members>
-    </pin-to-top-manager>
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="publicKey.getEncoded()" language="JAVA" />
-        <watch expression="RSA2Utils.restorePrivateKey(Base64.decode(privateKey)" />
-        <watch expression="sign(RSA2Utils.restorePrivateKey(Base64.decode(privateKey)), plainText)" />
-        <watch expression="bytesToHexString(sign(RSA2Utils.restorePrivateKey(Base64.decode(privateKey)), plainText));" />
-        <watch expression="src[2] &amp; 0xFF" language="JAVA" />
-        <watch expression="Base64.decode(publicKey)" />
-        <watch expression="cipher.doFinal(data.getBytes())" />
-      </configuration>
-      <configuration name="Application">
-        <watch expression="((RequestFacade) servletRequest).request.getDecodedRequestURI()" language="JAVA" custom="org.apache.catalina.connector.RequestFacade" />
-        <watch expression="h.getMethod().getName()" />
-        <watch expression="request.getRequestURI()" />
-        <watch expression="joinPoint.getSignature()" language="JAVA" />
-        <watch expression="joinPoint.getTarget()" />
-        <watch expression="e.getMessage()" />
-      </configuration>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/com/lq/springdemo/interfacedec/aop/PageAOP.java" line="49">
-        <watch expression="joinPoint.getTarget()" />
-      </inline-watch>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/src/test/java/jwt_test/RASTest.java" line="322">
-        <watch expression="Base64.decode(privateKey)" />
-      </inline-watch>
-    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

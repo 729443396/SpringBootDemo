@@ -36,7 +36,7 @@ public class JwtTest {
                  //.withExpiresAt(time.getTime())
                 .sign(Algorithm.HMAC256("ascfDDDD"));//签名
 
-        System.out.println(token);
+        System.out.println("生成的token："+token);
         return  token;
     }
 
@@ -46,7 +46,7 @@ public class JwtTest {
         //创建验证对象
         JWTVerifier ascf = JWT.require(Algorithm.HMAC256("ascfDDDD")).build();
         DecodedJWT verify = ascf.verify(token);
-        System.out.println(verify.getClaim("username"));//获取token数据
+        System.out.println("=========获取token数据========:"+verify.getClaim("username"));//获取token数据
         return false;
     }
 }

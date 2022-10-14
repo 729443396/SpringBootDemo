@@ -5,6 +5,9 @@ import com.lq.springdemo.quartz.quartzEnum.TriggerType;
 import com.lq.springdemo.quartz.task.quartzInterface.QuartzTaskJob;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
 import java.util.Map;
 
 /**
@@ -17,6 +20,7 @@ import java.util.Map;
 @Getter
 @Setter
 public class IntervalTimingMode extends TimingModel {
+
 
     /**
      * 事件间隔，根据TriggerType确定单位，除了数值为毫秒，该数值必须在-2^32~2^31   (-2147483648 ~ 2147483647)

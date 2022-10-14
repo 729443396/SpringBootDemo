@@ -5,16 +5,26 @@ import com.lq.springdemo.quartz.model.IntervalTimingMode;
 import com.lq.springdemo.quartz.quartzEnum.TriggerType;
 import com.lq.springdemo.quartz.task.QuartzTaskManager;
 import com.lq.springdemo.quartz.task.factory.TestQuartz;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.lq.springdemo"})
+@Slf4j
+@Component
 public class SpringBootMain implements CommandLineRunner {
+
+    @Value("${log.path}")
+    private String logPath;
+
+    @Value("${log.name}")
+    private String name;
     public static void main(String[] args) throws Exception {
         SpringApplication.run(SpringBootMain.class,args);
     }
@@ -27,6 +37,8 @@ public class SpringBootMain implements CommandLineRunner {
      */
     @Override
     public void run(String... args) throws Exception {
+        log.error(this.name+this.logPath);
+//        System.out.println(this.name+this.logPath);
         //构建CRON定时
         //CronTimingModel cronTimingModel = new CronTimingModel(TestQuartz.class,
         // "测试名", "测试组", "测试描述", "*/1 * * * * ?");

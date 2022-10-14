@@ -7,6 +7,7 @@ import com.lq.springdemo.quartz.task.factory.TriggerManager;
 import lombok.extern.slf4j.Slf4j;
 import org.quartz.*;
 import org.quartz.impl.matchers.GroupMatcher;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
 import java.lang.reflect.InvocationTargetException;
@@ -31,6 +32,11 @@ public class QuartzTaskManager {
 
     private static QuartzTaskManager taskManager;
 
+
+
+
+
+
     public QuartzTaskManager(Scheduler scheduler, TriggerManager triggerManager) {
         this.scheduler = scheduler;
         taskManager = this;
@@ -47,6 +53,7 @@ public class QuartzTaskManager {
     }
 
     public static QuartzTaskManager getInstance(){
+
         return taskManager;
     }
 
