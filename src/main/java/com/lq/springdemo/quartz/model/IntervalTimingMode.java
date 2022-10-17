@@ -22,6 +22,7 @@ import java.util.Map;
 public class IntervalTimingMode extends TimingModel {
 
 
+
     /**
      * 事件间隔，根据TriggerType确定单位，除了数值为毫秒，该数值必须在-2^32~2^31   (-2147483648 ~ 2147483647)
      * */
@@ -45,6 +46,7 @@ public class IntervalTimingMode extends TimingModel {
 
     public IntervalTimingMode(Class<? extends QuartzTaskJob> taskClass, String taskName, String groupName, String description, TriggerType type, Long interval,Integer repeatCount) throws Exception {
         super(taskClass, taskName, groupName, description, type);
+
         if (type != TriggerType.INTERVAL_MILLISECOND){
             if (interval<(-2^32)||interval>(2^31)){
                 throw new Exception("interval超出范围，除了类型为INTERVAL_MILLISECOND的数据间隔定时的interval范围必须在-2^32~2^31   (-2147483648 ~ 2147483647)");

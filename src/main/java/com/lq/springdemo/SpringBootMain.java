@@ -20,11 +20,6 @@ import java.util.HashMap;
 @Component
 public class SpringBootMain implements CommandLineRunner {
 
-    @Value("${log.path}")
-    private String logPath;
-
-    @Value("${log.name}")
-    private String name;
     public static void main(String[] args) throws Exception {
         SpringApplication.run(SpringBootMain.class,args);
     }
@@ -37,7 +32,6 @@ public class SpringBootMain implements CommandLineRunner {
      */
     @Override
     public void run(String... args) throws Exception {
-        log.error(this.name+this.logPath);
 //        System.out.println(this.name+this.logPath);
         //构建CRON定时
         //CronTimingModel cronTimingModel = new CronTimingModel(TestQuartz.class,

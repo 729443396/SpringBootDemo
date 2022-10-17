@@ -6,11 +6,19 @@ import org.quartz.JobDataMap;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 import org.quartz.SimpleTrigger;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
 @Slf4j
 public class TestQuartz implements QuartzTaskJob {
+
+    @Value("${driver-class-name}")
+    private String logPath;
+
+    @Value("${Configuration.status}")
+    private String name;
+
     @Override
     public void execute(JobExecutionContext context) throws JobExecutionException {
         // 获取参数
@@ -29,6 +37,7 @@ public class TestQuartz implements QuartzTaskJob {
                         "\n任务组:{}\n任务名:{}\n任务描述:{}\n获取参数paramKey:{}\n" +
                         "----------------------"
                 ,name,group,description,jobDataMap.getString("paramKey"));
+        log.error(this.name+this.logPath);
 
         try {
 //            QuartzJobManager.getInstance().jobdelete(this.getClass().getSimpleName(),"ah");//执行完此任务就删除自己

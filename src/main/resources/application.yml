@@ -1,15 +1,21 @@
 server:
   port: 8080
-
 spring:
+  application:
+    name: springbootTest
+  profiles:
+    include: application-log4j2.yml
+    #@value获取属性值，只能通过application-开头的配置文件获取，并且得是active的文件
+    active: log4j2,db
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/sakila?serverTimezone=Asia/Shanghai
     password: 123456
     username: root
 
-logging:
-  config: classpath:log4j2.yml
+
+#logging:
+#  config: classpath:application-log4j2.yml
 
 mybatis:
   #自定义拦截器sql显示属性

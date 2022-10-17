@@ -3,7 +3,7 @@
 # intLevel 值越小，级别越高
 Configuration:
   #日志框架本身的输出日志级别
-  status: WARN
+  status: info
   #自动加载配置文件的间隔时间，不低于5秒
   monitorInterval: 5
 
@@ -34,14 +34,14 @@ Configuration:
         PatternLayout:
           pattern: ${log.pattern}
         Filters:
-          #  一定要先去除不接受的日志级别，然后获取需要接受的日志级别
-          ThresholdFilter:   # 日志级别过滤器
-            - level: error   # 日志级别
-              onMatch: DENY  # 高于的拒绝
-              onMismatch: NEUTRAL  # 低于的
-            - level: info
-              onMatch: ACCEPT
-              onMismatch: DENY
+#          #  一定要先去除不接受的日志级别，然后获取需要接受的日志级别
+#          ThresholdFilter:   # 日志级别过滤器
+#            - level: error   # 日志级别
+#              onMatch: DENY  # 高于的拒绝
+#              onMismatch: NEUTRAL  # 低于的
+#            - level: info
+#              onMatch: ACCEPT
+#              onMismatch: DENY
         Policies:
           SizeBasedTriggeringPolicy: # 日志拆分规则
             size: "10MB"

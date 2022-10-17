@@ -4,23 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0861919f-8c0e-4ccb-a4bc-ee2baa50556b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MyBatis_Test_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bootTest/configTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="0861919f-8c0e-4ccb-a4bc-ee2baa50556b" name="Changes" comment="20221014">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-db.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatis_Test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/SpringBootMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/SpringBootMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/model/IntervalTimingMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/model/IntervalTimingMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/task/QuartzTaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/task/QuartzTaskManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/task/factory/TestQuartz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/task/factory/TestQuartz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2_SpringDemo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2_SpringDemo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jwt_test/JwtTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jwt_test/JwtTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-log4j2.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,8 +130,16 @@
       <option name="presentableId" value="Default" />
       <updated>1665390273417</updated>
       <workItem from="1665564845420" duration="1239000" />
-      <workItem from="1665624031327" duration="12009000" />
+      <workItem from="1665624031327" duration="25658000" />
     </task>
+    <task id="LOCAL-00001" summary="20221014">
+      <created>1665712902406</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665712902406</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,13 +156,22 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20221014" />
+    <option name="LAST_COMMIT_MESSAGE" value="20221014" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lq/springdemo/SpringBootMain.java</url>
-          <line>40</line>
+          <line>34</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lq/springdemo/quartz/task/factory/TestQuartz.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
